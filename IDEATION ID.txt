@@ -1,0 +1,19 @@
+
+
+IDEATION
+----------------
+
+- Website based off a famous J-POP group named YOASOBI
+- The group includes 2 artists, Vocal: Lilas Ikuta, Composer: Ayase
+- Purpose is to showcase the top hits that this group had achieved
+- Includes possible new upcoming songs/albums
+- Tells the story of how the group came about to their fanbases
+- Features include a images of live performances, videos of songs, merchandise store
+- Features to also include backstories of each artist in the group through links of their social media page
+
+
+Javascript
+-----------------
+
+- Potential filters to showcase specific albums during a time period
+- Mouse over interactions

@@ -1,25 +1,166 @@
-nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-}
+@font-face {
+    font-family: Soukou-mincho;
+    src: url(font/soukou-mincho/SoukouMincho.ttf);
+  }
 
-nav ul {
-    list-style-type: none;
+  @font-face {
+    font-family: lineseed;
+    src: url(font/line-seed-jp/OTF/LINESeedJP_OTF_Bd.otf);
+  }
+body {
     margin: 0;
     padding: 0;
-    display: flex;
+    font-family: lineseed;
+    background-color: rgb(46, 45, 45);
+  }
+
+  nav {
+    background-color: #242323;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .nav-column {
+    float: left;
+    margin-left: 2%;
+  }
+
+  .nav-column2{
+    float: right;
+    margin-right: 2%;
+  }
+
+  .nav-column a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 30px; 
+  }
+
+  .nav-column a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .nav-column2 a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 30px; 
+  }
+
+  .nav-column2 a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.banner{
+    position:relative;
+    text-align: center;
+    color: white;
+    
 }
 
-nav li {
-    padding: 15px 20px;
+.banner img{
+    opacity: 60%;
+    width: 80%;
+    height: 55%;
 }
 
-nav a {
-    color: #fff;
-    font-weight: bold;
-}
+  .bannerText{
+    position:absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-family: lineseed;
+    font-size: 100px;
+  }
 
-nav a:hover {
-    color: #ddd;
-}
+  .albumSec{
+    border: 1px solid black;
+    background-color: black;
+    opacity: 80%;
+    height: 1500px;
+    width: auto;
+    flex-direction: row;
+
+  }
+
+  .album-column{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 15%;
+
+  }
+
+  .E-side{
+    border: 1px solid black;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+  }
+
+  .Book{
+    border: 1px solid black;
+    position: relative;
+    z-index: 2;
+    top: -100px;
+    left: -500px;
+
+  }
+
+  .Running{
+    border: 1px solid black;
+    position: relative;
+    z-index: 3;
+    top: -200px;
+    left: -1000px;
+  }
+
+  h1{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+  }
+
+  .album-column2{
+    position: relative;
+    margin-right: 10%;
+    margin-left: 55%;
+    background-color: grey;
+    border: 1px solid black;
+    width: 800px;
+    height: 650px;
+    top: -50%;
+
+  }
+
+  h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+
+
+  }
+
+  .album-column2 li{
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 30%;
+    
+  }
+
+  @media screen and (min-width: 576px) { 
+    h1{color: white;}
+    }
+
+    
+
+

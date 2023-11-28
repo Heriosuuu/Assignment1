@@ -1,0 +1,171 @@
+@font-face {
+    font-family: Soukou-mincho;
+    src: url(font/soukou-mincho/SoukouMincho.ttf);
+  }
+
+  @font-face {
+    font-family: lineseed;
+    src: url(font/line-seed-jp/OTF/LINESeedJP_OTF_Bd.otf);
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: lineseed;
+    background-color: rgb(46, 45, 45);
+  }
+
+  nav {
+    background-color: #242323;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .nav-column {
+    float: left;
+    margin-left: 2%;
+  }
+
+  .nav-column2{
+    float: right;
+    margin-right: 2%;
+  }
+
+  .nav-column a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 30px; 
+  }
+
+  .nav-column a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .nav-column2 a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 30px; 
+  }
+
+  .nav-column2 a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .about {
+    display: flex;
+    border: #ddd 1px solid;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+  }
+
+  .ayase {
+    margin: 2%;
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .text {
+    font-size: 1vw;
+    color: #ddd;
+  }
+  
+
+
+  footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+  }
+
+  footer h3{
+    font-size: 2vw;
+  }
+
+  .social img{
+    width: 3%;
+    height: 3%;
+    background-size: cover;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 2vw;
+    
+  }
+
+
+
+  @media screen and (max-width: 576px) { 
+    h1{color: white;}
+
+
+    nav {
+      background-color: #242323;
+      overflow: hidden;
+      width: 100%;
+    }
+  
+    .nav-column {
+      float: left;
+      margin-left: 2%;
+    }
+  
+    .nav-column2{
+      float: right;
+      margin-right: 2%;
+    }
+  
+    .nav-column a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      margin-right: 30px; 
+    }
+  
+    .nav-column a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+  
+    .nav-column2 a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      margin-right: 30px; 
+    }
+  
+    .nav-column2 a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+
+    footer a{
+      font-size: 1vw;
+    }
+    }
+
+    
+
+

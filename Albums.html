@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="AlbumStyle.css" type="text/css">
+  <script src="video.js"></script>
 
   <title>YOASOBI WEBSITE</title>
   </head>
@@ -13,11 +14,11 @@
     <nav>
       
       <div class="nav-column">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Albums</a>
-        <a href="#">Merch</a>
-        <a href="#">Shows</a>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Albums.html">Albums</a>
+        <a href="Merch.html">Merch</a>
+        <a href="Shows.html">Shows</a>
       </div>
   
       
@@ -26,6 +27,73 @@
         <a href="#">Register</a>
       </div>
     </nav>
+
+    <br>
+    <br>
+
+    <section class="videotop">
+    <video autoplay controls loop id="theBrave">
+      <source src="video/Album-video.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    
+    <div class="content">
+      <div class="text">
+      <h1>New Song</h1>
+      <p>YOASOBI「勇者」</p>
+      </div>
+      <button id="myBtn" onclick="videoPlay()">Play</button>
+    </div>
+
+    </section>
+
+
+    <section class="album">
+      <div class="albumtitle">
+        <h1>ALBUMS</h1>
+      </div>
+
+
+      <div class="gallery-wrap">
+        <img src="button/left.png" id="leftBtn">
+        <img src="button/right.png" id="rightBtn">
+      </div>
+
+      <div class="gallery">
+        <div>
+          <span><img src="images/album cover/Book.jpg" alt="Book"></span>
+          <span><img src="images/album cover/E-Side.jpg" alt="E-SIDE"></span>
+          <span><img src="images/album cover/Running into the night.jpg" alt="Running"></span>
+        </div>
+      </div>
+    </section>
+
+
+
+  
+
+
+
+      <footer>
+        <h3>YOASOBI</h3>
+
+        <div class="social">
+          <img src="images/twitter icon.jpg">
+          <img src="images/utube.jpg">
+          <img src="images/spotify.jpg">
+        </div>
+        <div class="links">
+          <a>Sony Music Entertainment (Japan) Inc. All rights Reserved</a>
+        </div>
+        <br>
+        <br>
+
+        <br>
+        <br>
+
+      </footer>
+
     </body>
+    
 
 </html>

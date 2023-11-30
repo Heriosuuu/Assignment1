@@ -4,14 +4,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="CSS/AlbumStyle.css" type="text/css">
-  <script src="video.js"></script>
-  <script src="top.js"></script>
+  <!--Linking to script and stylesheet remains the same, added one new video script to this page-->
+  <link rel="stylesheet" href="CSS/style.css" type="text/css">
+  <script src="Javascripts/top.js"></script>
+  <script src="Javascripts/video.js"></script>
 
   <title>YOASOBI WEBSITE</title>
   </head>
   <body>
-  
+    
+    <!--Navigation feature remains the same-->
     <nav>
       
       <div class="nav-column">
@@ -27,17 +29,23 @@
     <br>
     <br>
 
+    <!--Section for video-->
     <section class="videotop">
+      <!--Video play settings to allow video to be played-->
     <video autoplay controls loop id="theBrave">
+      <!--Sourcing the video file-->
       <source src="video/Album-video.mp4" type="video/mp4">
+      <!--In case user is unable to see the video, display error text-->
       Your browser does not support HTML5 video.
     </video>
     
+    <!--Text content for video-->
     <div class="content">
-      <div class="text">
+      <div class="videotext">
       <h1>New Song</h1>
       <p>YOASOBI「勇者」</p>
       </div>
+      <!--Video play button and script that allows "Play" and "Pause" to display alternatingly, links to script-->
       <button id="videoBtn" onclick="videoPlay()">Play</button>
     </div>
 
@@ -45,6 +53,8 @@
 
     <br>
     <br>
+
+    <!--Start of album section-->
     <section class="album">
       <div class="albumtitle">
         <h1>ALBUMS</h1>
@@ -52,41 +62,49 @@
       <br>
       <br>
 
-      
+      <!--Wrapper used for section to display scrolling cards of albums-->
       <div class="wrapper">
 
-
+        <!--Carousel is the scrolling division used for scrolling effect-->
         <ul class="carousel">
+          <!--Each card displays a unique album, with text and details on the song-->
           <li class="card">
+            <!--Image sourcing-->
             <div class="albumimg"><img src="images/album cover/Idol.jpg" alt="idol"></div>
+            <!--Header title for album and description-->
             <h2>IDOL</h2>
             <span>2023 . Single</span>
           </li>
 
+          <!--Same feature as above, different content-->
           <li class="card">
             <div class="albumimg"><img src="images/album cover/Brave.jpg" alt="Brave"></div>
             <h2>The Brave</h2>
             <span>2023 . Single</span>
           </li>
 
+          <!--Same feature as above, different content-->
           <li class="card">
             <div class="albumimg"><img src="images/album cover/Running.jpg" alt="Running"></div>
             <h2>Into the Night</h2>
             <span>2021 . Single</span>
           </li>
 
+          <!--Same feature as above, different content-->
           <li class="card">
             <div class="albumimg"><img src="images/album cover/E-Side.jpg" alt="E-Side"></div>
             <h2>E-Side</h2>
             <span>2021 . Album</span>
           </li>
 
+          <!--Same feature as above, different content-->
           <li class="card">
             <div class="albumimg"><img src="images/album cover/Book.jpg" alt="Book"></div>
             <h2>Book</h2>
             <span>2021 . Album</span>
           </li>
 
+          <!--Same feature as above, different content-->
           <li class="card">
             <div class="albumimg"><img src="images/album cover/Blue.jpg" alt="Blue"></div>
             <h2>Blue</h2>
@@ -100,54 +118,64 @@
     </section>
 
 
-
+    <!--Song title section-->
     <section class="songtitles">
 
+      <!--Header for song titles-->
       <h1>Song Titles</h1>
       <br>
       <br>
-      <div class="album-column">
+      <!--Same feature as index.html where we allocate different boxes left and right for display of different contents-->
+      <div class="album-column3">
         <h2>Top 5 Hits</h2>
         <div class="info">
         <ol>
+          <!--List of Album titles-->
           <li>Idol    
             <br>
+            <!--Added a audio play function for each song, song choices are all accurate, sound, play, pausing are achievable-->
             <audio controls id="idol">
               <source src="audios/idol.mp3" type="audio/mpeg">
+              <!--Error message incase user browser is unable to view audio player-->
               Sorry your browser does not support audio player
           </audio>
           </li>
 
 
-
+          <!--List of Album titles-->
           <li>Into the Night   
             <br>
+            <!--Same audio function, different content-->
             <audio controls id="running">
               <source src="audios/running.mp3" type="audio/mpeg">
               Sorry your browser does not support audio player
           </audio>
           </li>
 
-
+          <!--List of Album titles-->
           <li>Monster  
             <br>
+            <!--Same audio function, different content-->
             <audio controls id="monster">
               <source src="audios/monster.mp3" type="audio/mpeg">
               Sorry your browser does not support audio player
           </audio>
           </li>
 
-
+          <!--List of Album titles-->
           <li>Gunjou
             <br>
+            <!--Same audio function, different content-->
             <audio controls id="gunjou">
               <source src="audios/gunjou.mp3" type="audio/mpeg">
               Sorry your browser does not support audio player
           </audio>
           </li>
 
+          <!--List of Album titles-->
           <li>Probably
             <br>
+            <!--Same audio function, different content-->
             <audio controls id="probably">
               <source src="audios/probably.mp3" type="audio/mpeg">
               Sorry your browser does not support audio player
@@ -160,12 +188,15 @@
       </div>
       </div>
 
-      <div class="album-column2">
+      <!--Same Grouping function, different content-->
+      <div class="album-column4">
         <h2>New Releases</h2>
         <div class="info">
         <ol>
+          <!--Same listing feature, different content-->
           <li>Biri Biri
             <br>
+            <!--Same audio function, different content-->
             <audio controls id="biri">
               <source src="audios/biri.mp3" type="audio/mpeg">
               Sorry your browser does not support audio player
@@ -173,35 +204,40 @@
           </li>
 
 
-
+          <!--Same listing feature, different content-->
           <li>The Brave   
             <br>
+            <!--Same audio function, different content-->
             <audio controls id="Brave">
               <source src="audios/brave.mp3" type="audio/mpeg">
               Sorry your browser does not support audio player
           </audio>
           </li>
 
-
+          <!--Same listing feature, different content-->
           <li>Hero
             <br>
+            <!--Same audio function, different content-->
             <audio controls id="hero">
               <source src="audios/hero.mp3" type="audio/mpeg">
               Sorry your browser does not support audio player
           </audio>
           </li>
 
-
+          <!--Same listing feature, different content-->
           <li>Idol
             <br>
+            <!--Same audio function, different content-->
             <audio controls id="idol">
               <source src="audios/idol.mp3" type="audio/mpeg">
               Sorry your browser does not support audio player
           </audio>
           </li>
 
+          <!--Same listing feature, different content-->
           <li>Umi no Manimani
             <br>
+            <!--Same audio function, different content-->
             <audio controls id="ume">
               <source src="audios/Ume.mp3" type="audio/mpeg">
               Sorry your browser does not support audio player
@@ -219,10 +255,11 @@
 
     <br>
     <br>
+    <!--Same scroll to top button feature-->
     <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
 
 
-
+    <!--Footer feature remains the same-->
       <footer>
         <h3>YOASOBI</h3>
 

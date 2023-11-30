@@ -4,16 +4,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <!--Stylesheet reference and linking-->
   <link rel="stylesheet" href="CSS/style.css" type="text/css">
-  <script src="top.js"></script>
+  <!--Script linking, top.js is scroll to top script-->
+  <script src="Javascripts/top.js"></script>
 
 
   <title>YOASOBI WEBSITE</title>
   </head>
   <body>
-  
+    
+
+    <!--Navigation section-->
     <nav>
-      
+      <!--Column division to group navigations-->
       <div class="nav-column">
         <a href="index.html">Home</a>
         <a href="About.html">About</a>
@@ -25,26 +29,35 @@
     </nav>
 
 
-
+    <!--Banner section-->
     <div class="banner">
+      <!--Iconic first banner of brand-->
       <img src="images/Banner.jpg" alt="banner">
+      <!--Text content on the banner -->
       <div class="bannerText">This is YOASOBI</div>
     </div>
 
+    <!--Start of album section-->
     <section class="albumSec">
 
+      <!--Album header-->
       <h1>Albums</h1>
+      <!--Column feature to separate one group on the left with album images-->
       <div class="album-column">
+        <!--Images used for albums-->
         <img class="E-Side" src="images/album cover/E-Side.jpg" alt="E-Side">
         <img class="Book" src="images/album cover/Book.jpg" alt="Book">
         <img class="Running" src="images/album cover/Running.jpg" alt="Running">
       </div>
 
 
-
+      <!--Second column on the right, indicating songs of the band-->
       <div class="album-column2">
+        <!--Header for boxed content-->
         <h2>Top Albums</h2>
-        <ol>
+        <!--Ordered list to showcase top 5 songs-->
+        <ol> 
+          <!--List of song titles-->
           <li>The Book</li>
           <li>E-SIDE</li>
           <li>The Book 2</li>
@@ -53,6 +66,7 @@
         </ol>
       </div>
 
+      <!--Button used for navigation to albums-->
       <div class="button-center">
         <a href="Albums.html" class="button">Listen Now!</a>
       </div>
@@ -63,9 +77,12 @@
       <br>
 
 
+      <!--Start of Artist sections-->
       <section class="ArtistSec">
+        <!--Header for artists-->
         <h1>Our Artists</h1>
 
+        <!--Image used to showcase artists-->
           <div class="flex-item">
               <div class="flex-img">
                   <a href="About.html"><img src="images/Artist/group.jpg"></a>
@@ -76,18 +93,23 @@
       
       </section>
 
+      <!--Scroll to top function used through javascript and button-->
       <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
 
 
-
+      <!--Start of footer-->
       <footer>
+        <!--Text logo of band-->
         <h3>YOASOBI</h3>
 
+        <!--Start of social media icons for the band-->
         <div class="social">
+          <!--Image links to band socials-->
           <img src="images/twitter icon.jpg">
           <img src="images/utube.jpg">
           <img src="images/spotify.jpg">
         </div>
+        <!--Copyright/Links-->
         <div class="links">
           <a>Sony Music Entertainment (Japan) Inc. All rights Reserved</a>
         </div>

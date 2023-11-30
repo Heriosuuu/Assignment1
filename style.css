@@ -12,6 +12,9 @@ body {
     padding: 0;
     font-family: lineseed;
     background-color: rgb(46, 45, 45);
+    background-image: url(images/background/index.gif);
+    background-size: cover;
+    background-blend-mode: darken;
   }
 
   nav {
@@ -63,10 +66,11 @@ body {
     text-align: center;
     color: white;
     
+    
 }
 
 .banner img{
-    opacity: 60%;
+    opacity: 70%;
     width: 80%;
     height: 55%;
 }

@@ -12,7 +12,9 @@
     margin: 0;
     padding: 0;
     font-family: lineseed;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(26, 26, 26);
+    background-image: url(images/background/main.gif);
+    background-blend-mode: darken;
   }
 
   nav {
@@ -84,6 +86,7 @@
     
   }
 
+
   #theBrave {
     position: relative;
     right: 0;
@@ -110,7 +113,7 @@
 
   }
   
-  #myBtn {
+  #videoBtn {
     width: 200px;
     font-size: 18px;
     padding: 10px;
@@ -121,7 +124,7 @@
     margin-left: 3%;
   }
   
-  #myBtn:hover {
+  #videoBtn:hover {
     background: #ddd;
     color: black;
     transition: .5s ease;
@@ -166,37 +169,11 @@
     position: relative;
     align-items: center;
     justify-content: center;
-    margin-left: 15%;
+    margin-left: 12%;
     display:flex;
+    height: 60vh;
 
   
-  }
-
-  .wrapper i {
-    top: 50%;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-    font-size: 1.25rem;
-    position: absolute;
-    text-align: center;
-    line-height: 50px;
-    background: #fff;
-    border-radius: 50%;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
-    transform: translateY(-50%);
-    transition: transform 0.1s linear;
-
-  }
-
-  .wrapper i:active{
-    transform: translateY(-50%) scale(0.85);
-  }
-  .wrapper i:first-child{
-    left: -22px;
-  }
-  .wrapper i:last-child{
-    right: -22px;
   }
 
   
@@ -225,11 +202,12 @@
 
   .carousel .card{
     list-style: none;
-    background: grey;
+    background: rgb(64, 64, 64);
     border-radius: 1vw;
-    height: 25vw;
+    height: 30vw;
     padding-bottom: 15px;
     cursor: pointer;
+    margin-bottom: 5%;;
   }
 
   .card .img{
@@ -241,24 +219,95 @@
 
   .card .albumimg img{
     width: 20vw;
-    height: 20vw;
+    height: 18vw;
     object-fit: cover;
-    border-radius: 50%;
-    border: 4px solid  rgb(207, 28, 88);
+    border-radius: 5%;
+    border: 2px solid  rgb(207, 28, 88);
   }
 
   .card h2{
     font-weight: 500;
-    font-size: 1vw;
+    font-size: 1.5vw;
     margin: 30px 0 5px;
     color: white;
   }
 
   .card span{
     color: white;
-    font-size: 0.5vw;
+    font-size: 1vw;
   }
+
+  .songtitles{
+    border-radius: 5%;
+    border: 1px solid white;;
+    background-color: black;
+    opacity: 80%;
+    height: 150vh;
+    width: auto;
+    flex-direction: row;
+    color: white;
+
+  }
+
+  .songtitles h1{
+    text-align: center;
+    font-size: 3vw;
+  }
+
+  .album-column{
+    position: relative;
+    margin-right: 15%;
+    margin-left: 17%;
+    background-color: solid rgba(64, 63, 63,0.8);
+    border: 1px solid darkred;
+    width: 30vw;
+    height: 70vh;
+    font-size: 1.5vw;
+  }
+
+  .album-column2{
+    position: relative;
+    margin-right: 15%;
+    margin-left: 52%;
+    background-color: solid rgba(64, 63, 63,0.8);
+    border: 1px solid darkred;
+    width: 30vw;
+    height: 70vh;
+    font-size: 1.5vw;
+    top: -46.8%;
   
+
+  }
+
+  .album-column2 h2{
+    text-align: center;
+  }
+
+  .album-column h2{
+    text-align: center;
+  }
+
+  .info {
+    margin-top: -10%;
+    display: flex;
+
+  }
+
+  audio{
+    width: 20vw;
+    height: 3vh;
+    color: rgb(207, 28, 88) solid;
+  }
+
+  .album-column li{
+    font-size: 1.5vw;
+    padding-top: 5%;
+  }
+
+  .album-column2 li{
+    font-size: 1.5vw;
+    padding-top: 5%;
+  }
 
 
   @media screen and (max-width: 576px) { 
@@ -318,6 +367,73 @@
       grid-auto-columns: 100%;
     }
 
+    .content {
+      position: relative;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      color: #f1f1f1;
+      width: 100%;
+      height: 25vh;
+    }
+
+    #theBrave {
+      position: relative;
+      right: 0;
+      bottom: 0;
+      height: 60%;
+      width: 50%;
+      margin-left: 5%;
+    }
+    
+    #videoBtn {
+      width: 20vw;
+      height: 5vh;
+      font-size: 2vw;
+      padding: 10px;
+      border: none;
+      background:  rgb(207, 28, 88);
+      color: #fff;
+      cursor: pointer;
+      margin-left: 3%;
+    }
+
+    .wrapper{
+      max-width: 45vw;
+      width: 100%;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      margin-left: 17%;
+      display:flex;
+      height: 60vh;
+  
+    
+    }
+    
+    .album-column{
+      position: relative;
+      margin-right: 15%;
+      margin-left: 17%;
+      background-color: solid rgba(64, 63, 63,0.8);
+      border: 1px solid darkred;
+      width: 30vw;
+      height: 40vh;
+      font-size: 1.5vw;
+    }
+
+    .album-column2{
+      position: relative;
+      margin-right: 15%;
+      margin-left: 52%;
+      background-color: solid rgba(64, 63, 63,0.8);
+      border: 1px solid darkred;
+      width: 30vw;
+      height: 40vh;
+      font-size: 1.5vw;
+      margin-top: 39.5%;
+    
+  
+    }
   }
 
     

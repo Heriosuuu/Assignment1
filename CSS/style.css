@@ -8,8 +8,8 @@
   html {
     line-height: 1.15;
   }
-/* Body css for overall theme and design style */
-body {
+  /* Body css for overall theme and design style */
+  body {
     margin: 0;
     padding: 0;
     font-family: lineseed;
@@ -97,25 +97,25 @@ body {
   }
 
 
-/* Start of index.html*/
+  /* Start of index.html*/
 
-/* Banner section, start of website, initial banner*/
-.banner{
+  /* Banner section, start of website, initial banner*/
+  .banner{
     position:relative;
     text-align: center;
     color: white;
     
     
-}
+  }
 
-/* Banner image modification*/
-.banner img{
-    opacity: 70%;
-    width: 80%;
-    height: 55%;
-}
+  /* Banner image modification*/
+  .banner img{
+      opacity: 70%;
+      width: 80%;
+      height: 55%;
+  }
 
-/* Text on the banner, repositioning and fixing position to be on the banner itself*/
+  /* Text on the banner, repositioning and fixing position to be on the banner itself*/
   .bannerText{
     position:absolute;
     top: 50%;
@@ -266,7 +266,7 @@ body {
     display: flex;
     flex-direction: column;
 
-}
+  }
   /* Modification to image contents, blocking it up*/
   .flex-img{
     opacity: 1;
@@ -696,7 +696,7 @@ body {
   /* Vertical line created for the timeline design*/
   .vertical2{
     border-left: 5px solid rgb(207, 28, 88);
-    height: 277vh;
+    height: 263vh;
     margin-left: 50%;
     position: absolute;
   }
@@ -872,7 +872,7 @@ body {
   }
 
 
-/* Button that is used for new tickets, same feature as other buttons*/
+  /* Button that is used for new tickets, same feature as other buttons*/
   .button-center {
     display: flex;
     justify-content: center;
@@ -891,7 +891,7 @@ body {
 
 
 
-/* Media screen settings for responsiveness*/
+  /* Media screen settings for responsiveness*/
   @media screen and (max-width: 576px) { 
     h1{color: white;}
     
@@ -1311,7 +1311,7 @@ body {
     }
     .vertical2{
       border-left: 5px solid rgb(207, 28, 88);
-      height: 122vh;
+      height: 109vh;
       margin-left: 50%;
       position: absolute;
     }

@@ -900,7 +900,7 @@
     /* Album section*/
     .albumSec{
       flex-direction: column;
-      display: flex;
+      position: relative;
       flex-wrap: wrap;
       height: 50vh;
       width: auto;
@@ -925,7 +925,8 @@
       border: 1px solid darkred;
       width: 35vw;
       height: auto;
-      margin-top: 10%;
+      margin-top: -15%;
+      height: 50%;
 
     }
 
@@ -933,6 +934,21 @@
     .album-column img{
       height: auto;
       width: 35vw;
+    }
+
+    
+    /* Centralising the button*/
+    .button-center {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     top: -15%;
+
+    }
+
+    .ArtistSec {
+      margin-top: 15%;
     }
 
     /* Navigation settings, adjusted for responsiveness*/
@@ -1045,10 +1061,17 @@
       list-style: none;
       background: rgb(64, 64, 64);
       border-radius: 1vw;
-      height: 50vw;
+      height: 40vw;
       padding-bottom: 15px;
       cursor: pointer;
       margin-bottom: 5%;;
+    }
+
+    .card .img{
+      background:  rgb(207, 28, 88);
+      width: 25vw;
+      height: 25vw;
+      border-radius: 50%;
     }
 
     .content {
@@ -1057,7 +1080,7 @@
       background: rgba(0, 0, 0, 0.5);
       color: #f1f1f1;
       width: 100%;
-      height: 10vh;
+      height: 20vh;
     }
     
     #theBrave {
@@ -1071,7 +1094,7 @@
     
     #videoBtn {
       width: 10vw;
-      height: 2.5vh;
+      height: 5vh;
       font-size: 2vw;
       padding: 10px;
       border: none;
@@ -1090,9 +1113,19 @@
       justify-content: center;
       margin-left: 17%;
       display:flex;
-      height: 30vh;
+      height: 50vh;
   
     
+    }
+
+    .card h2{
+      font-size: 3vw;
+      color: white;
+    }
+
+    .card span{
+      color: white;
+      font-size: 2vw;
     }
     
     .album-column3{
@@ -1102,7 +1135,7 @@
       background-color: solid rgba(64, 63, 63,0.8);
       border: 1px solid darkred;
       width: 30vw;
-      height: 30vh;
+      height: 35vh;
       font-size: 1.5vw;
     }
 
@@ -1113,9 +1146,9 @@
       background-color: solid rgba(64, 63, 63,0.8);
       border: 1px solid darkred;
       width: 30vw;
-      height: 30vh;
+      height: 35vh;
       font-size: 1.5vw;
-      margin-top: -6.7vh;
+      margin-top: -11.7vh;
     
   
     }
@@ -1123,13 +1156,13 @@
     .album-column3 li{
       font-size: 1.5vw;
       padding-top: 5%;
-      margin-left: 0vw;
+      margin-left: -3vw;
     }
   
     .album-column4 li{
       font-size: 1.5vw;
       padding-top: 5%;
-      margin-left: 0vw;
+      margin-left: -3vw;
     }
 
     .songtitles{
@@ -1169,7 +1202,7 @@
       display: inline-block;
       margin-left: auto;
       margin-right: auto;
-      top: 10vh;
+      top:20vh;
       border-top-right-radius: 50%;
       border-bottom-right-radius: 20%;
       
@@ -1178,7 +1211,7 @@
     }
     .concertbanner img{
       width: 100%;
-      height: 20vh;
+      height: 40vh;
   
     }
 
@@ -1186,7 +1219,7 @@
       position: relative;
       margin-left: 18%;
       margin-top: 5%;
-      height: 8vh;
+      height: 18vh;
       width: 42vw;
   
     }
@@ -1194,6 +1227,7 @@
     .jakarta {
       width: 70%;
       background-size: cover;
+      height: 15vh;
     }
   
     .jakarta-text{
@@ -1225,7 +1259,7 @@
     .chiba {
       width: 80%;
       background-size: cover;
-      height: 20%;
+      height: 40%;
 
     }
   
@@ -1258,13 +1292,14 @@
     .osaka {
       width: 70%;
       background-size: cover;
+      height: 17vh;
     }
   
     .osaka-text{
       position: relative;
       margin-right: 15%;
       margin-left: 52%;
-      margin-top: -27%;
+      margin-top: -14%;
       color: white;
       width: 30%;
       font-size: 2vw;
@@ -1289,7 +1324,7 @@
     .hk {
       width: 80%;
       background-size: cover;
-      height: 25%;
+      height: 40%;
       
     }
   
@@ -1301,7 +1336,7 @@
       width: 30%;
       text-align: right;
       font-size: 2vw;
-      top: 9vh;
+      top: 22vh;
     }
   
     .hk-text h1{
@@ -1311,7 +1346,7 @@
     }
     .vertical2{
       border-left: 5px solid rgb(207, 28, 88);
-      height: 143%;
+      height: 162%;
       margin-left: 50%;
       position: absolute;
     }

@@ -26,21 +26,56 @@ This section is also where you would sinks to any wireframes, mockups, diagrams 
 Features
 ------------
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+1. Navigation bar on the top of each sites that allows navigation to other html links.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+2. Listen now button under the album section which brings users directly to album page for them to listen to songs
 
-Features Left to Implement
-Another feature idea
+3. Image reference link that allows users to travel to About page to learn more about their artists
+
+4. Back to top button that allows users to smoothly go back to top of page without scrolling
+
+5. Under album page, video player allows users to play a music video of most recent song release
+
+6. Play button beside the video uses a javascript that changes "Play" to "Pause" when user select it, alternating the names when clicked other way round. Button works as its linked to playing and pausing of actual video
+
+7. Under album cards, each album is allocated into a card where users can use a scrollwheel to horizontally scroll between different albums, arranged by dates
+
+8. Audio player for each songs allows users to take a listen to a selected song of choice.
+
+9. Final button that allows users to purchase tickets brings them to the purchase page, where in this case, is the home page
+
+ADDTIONAL FEATURES
+-------------------
+Future plans
+
+1. Purchasing page that allows seats to be chosen, like choosing a seat for a cinema
+
+2. Album cards to be able to open up into another page that displays all songs under that album
+
+3. Merch store to be implemented
+
 Technologies Used
+-------------------
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+Softwares used for this project:
+1. Visual Studio Code
+2. Adobe XD
+3. Google chrome
+4. Github Desktop
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
+Languages used:
+HTML, CSS, Javascript
+
 Testing
+-----------------
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
+Video play:
+Go to "Album" page
+Try to start the video by pressing on the "Play" button under the text
+Check to see if the text in the button changes from "Play" to "Pause"
+Open up the video in fullscreen or picture in picture mode to make sure it fits
+Try adjusting the volume to make sure it works
 
 Contact form:
 Go to the "Contact Us" page
@@ -49,11 +84,20 @@ Try to submit the form with an invalid email address and verify that a relevant 
 Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Audio play:
+Go to "Album" page
+Scroll down to the top hits for songs
+Play any of the songs to make sure each song is uniquely different
+Check if playing,pausing,volume and adjustment of time is working
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+(Potential bugs: the song "Idol" appears in both top and trending hits. Sometimes playing one of them
+may start the other one too. FIXED BUT MAY REAPPEAR)
+
+
+
 
 Credits
+------------
 Content
 The text for section Y was copied from the Wikipedia article Z
 Media

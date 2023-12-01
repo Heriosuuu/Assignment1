@@ -696,7 +696,7 @@
   /* Vertical line created for the timeline design*/
   .vertical2{
     border-left: 5px solid rgb(207, 28, 88);
-    height: 263vh;
+    height: 305%;
     margin-left: 50%;
     position: absolute;
   }
@@ -1311,7 +1311,7 @@
     }
     .vertical2{
       border-left: 5px solid rgb(207, 28, 88);
-      height: 109vh;
+      height: 143%;
       margin-left: 50%;
       position: absolute;
     }

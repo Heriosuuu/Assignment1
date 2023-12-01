@@ -21,7 +21,7 @@ Some things that users would want from this website are:
 
 
 As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+This section is also where you would sinks to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobhare le XD wireframe as a folder. You can include the XD share url.
 
 Features
 ------------

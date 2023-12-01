@@ -98,9 +98,50 @@ may start the other one too. FIXED BUT MAY REAPPEAR)
 
 Credits
 ------------
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+Content:
+Text under "About Us" was copied from wikipedia article on YOASOBI
+link: https://en.wikipedia.org/wiki/Yoasobi
+
+Text under "Ayase" was copied from wikipedia article on Ayase
+link: https://en.wikipedia.org/wiki/Ayase_(music_producer)
+
+Text under "Ikuta" was copied from wikipedia article on Ikuta
+link: https://en.wikipedia.org/wiki/Lilas_Ikuta
+
+Media:
+Image of logo was obtained from wikipedia
+link: https://en.wikipedia.org/wiki/Yoasobi
+
+Image of all album covers were obtained from Spotify
+link: https://open.spotify.com/artist/64tJ2EAv1R6UaZqc4iOCyj
+
+Video used under "Album", new released song was obtained from Youtube
+link: https://www.youtube.com/watch?v=OIBODIPC_8Y&ab_channel=Ayase%2FYOASOBI
+
+Audio files obtained and used under "Album" was also obtained from youtube
+Links:
+
+Idol: https://www.youtube.com/watch?v=ZRtdQ81jPUQ
+Monster: https://www.youtube.com/watch?v=dy90tA3TT1c
+Into the night: https://www.youtube.com/watch?v=x8VYWazR5mE
+Gunjou: https://www.youtube.com/watch?v=Y4nEEZwckuU
+Probably: https://www.youtube.com/watch?v=8iuLXODzL04
+Biri Biri: https://www.youtube.com/watch?v=shZyg5VFI1Y
+Hero: https://www.youtube.com/watch?v=o4AxMk3SGUY
+Ume: https://www.youtube.com/watch?v=7G0ovtPqHnI
+
+Image of concerts used in "Shows" were obtained from the following:
+
+Jakarta: https://twitter.com/YOASOBI_staff/status/1599542865608441856
+
+Chiba: https://www.summersonic.com/en/2023live/detail/yoasobi/
+
+Osaka: https://www.summersonic.com/en/2023live/detail/yoasobi/
+
+Hong Kong: https://thehkhub.com/clockenflap-reveals-line-up-for-december-2023-with-50-artists-and-yoasobi-pulp-joji-as-headliners/
+
+Inspirations:
+https://www.pinterest.com/pin/355784439326989961/
+https://www.pinterest.com/pin/15481192461911756/
+https://www.pinterest.com/pin/935059941357393388/
+https://www.pinterest.com/pin/154459462211619108/
